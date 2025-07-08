@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Flexbox align-items Visual Guide</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🔧 CSS Flexbox align-items</h1>
+      <p>Master the <strong>cross-axis</strong> alignment like a pro!</p>
+    </div>
+
+    <!-- Repeatable Sections -->
+    <!-- STRETCH -->
+    <section class="demo-section">
+      <div class="demo-header">
+        <div class="demo-icon">✅</div>
+        <div class="demo-title">stretch</div>
+        <div class="demo-code">align-items: stretch</div>
+      </div>
+      <div class="demo-description">
+        <strong>DEFAULT:</strong> All items stretch to fill the container's cross-axis height.
+      </div>
+      <div class="flex-container stretch">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2<br>More content</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="cross-axis-label">CROSS AXIS</div>
+        <div class="arrow-indicators">↕️</div>
+      </div>
+      <div class="visual-indicator">All items stretch to match the tallest item</div>
+    </section>
+
+    <!-- FLEX START -->
+    <section class="demo-section">
+      <div class="demo-header">
+        <div class="demo-icon">🔼</div>
+        <div class="demo-title">flex-start</div>
+        <div class="demo-code">align-items: flex-start</div>
+      </div>
+      <div class="demo-description">
+        Items align to the <strong>start</strong> of the cross-axis.
+      </div>
+      <div class="flex-container flex-start">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2<br>More content</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="cross-axis-label">CROSS AXIS</div>
+        <div class="arrow-indicators">⬆️</div>
+      </div>
+      <div class="visual-indicator">All items align to the top of the container</div>
+    </section>
+
+    <!-- FLEX END -->
+    <section class="demo-section">
+      <div class="demo-header">
+        <div class="demo-icon">🔽</div>
+        <div class="demo-title">flex-end</div>
+        <div class="demo-code">align-items: flex-end</div>
+      </div>
+      <div class="demo-description">
+        Items align to the <strong>end</strong> of the cross-axis.
+      </div>
+      <div class="flex-container flex-end">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2<br>More content</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="cross-axis-label">CROSS AXIS</div>
+        <div class="arrow-indicators">⬇️</div>
+      </div>
+      <div class="visual-indicator">All items align to the bottom of the container</div>
+    </section>
+
+    <!-- CENTER -->
+    <section class="demo-section">
+      <div class="demo-header">
+        <div class="demo-icon">🎯</div>
+        <div class="demo-title">center</div>
+        <div class="demo-code">align-items: center</div>
+      </div>
+      <div class="demo-description">
+        Items align to the <strong>center</strong> of the cross-axis.
+      </div>
+      <div class="flex-container center">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2<br>More content</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="cross-axis-label">CROSS AXIS</div>
+        <div class="arrow-indicators">🎯</div>
+      </div>
+      <div class="visual-indicator">All items are centered vertically</div>
+    </section>
+
+    <!-- BASELINE -->
+    <section class="demo-section">
+      <div class="demo-header">
+        <div class="demo-icon">🅰️</div>
+        <div class="demo-title">baseline</div>
+        <div class="demo-code">align-items: baseline</div>
+      </div>
+      <div class="demo-description">
+        Items align based on their <strong>text baseline</strong>.
+      </div>
+      <div class="flex-container baseline">
+        <div class="flex-item">Small</div>
+        <div class="flex-item">LARGE TEXT</div>
+        <div class="flex-item">Medium</div>
+        <div class="flex-item">Big Text</div>
+        <div class="cross-axis-label">CROSS AXIS</div>
+        <div class="arrow-indicators">📐</div>
+      </div>
+      <div class="visual-indicator">All items aligned to their text baselines</div>
+    </section>
+
+    <div class="key-insight">
+      <strong>💡 Key Insight:</strong> Cross-axis is vertical when flex-direction is row (default), and horizontal when flex-direction is column.
+    </div>
+  </div>
+  <!-- ✅ Credit Section -->
+  <div class="credit">Made with ❤️ by Sumit Kumar</div>
+</body>
+</html>
