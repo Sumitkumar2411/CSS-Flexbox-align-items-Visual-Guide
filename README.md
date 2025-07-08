@@ -12,10 +12,10 @@ This project is a **visual UI guide** to help beginners understand how the CSS F
 It uses **pure HTML & CSS** — no frameworks, no JavaScript — to deliver a hands-on learning experience.
 
 ## 👨‍💻 Built With  
-**HTML5**  
-**CSS3** 
-**Prompt Engineering (used with AI to visualize the idea)**
-**Canva (for layout/preview support)**
+HTML5
+CSS3
+Prompt Engineering (used with AI to visualize the idea)
+Canva (for layout/preview support)*
 
 ## 💡 Why This Project?  
 As a Generative AI learner, I wanted to apply **prompt engineering** practically.  
